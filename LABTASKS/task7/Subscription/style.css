@@ -1,0 +1,112 @@
+
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    background: rgba(20, 20, 20, 0.95);
+    padding: 50px;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 0 25px rgba(229, 9, 20, 0.4);
+    text-align: center;
+}
+
+
+h1, h2 {
+    color: #E50914;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #bbb;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    background: #333;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    background: #444;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: #E50914;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #f6121d;
+    transform: scale(1.05);
+}
+
+
+a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    color: white;
+}
+
+
+.plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.plan-card {
+    background: #141414;
+    padding: 25px;
+    border-radius: 8px;
+    width: 250px;
+    transition: 0.3s;
+    border: 1px solid #333;
+}
+
+.plan-card:hover {
+    transform: scale(1.08);
+    border: 1px solid #E50914;
+}
+
+.popular {
+    border: 2px solid #E50914;
+}
+
+.price {
+    font-size: 22px;
+    margin: 15px 0;
+    color: #E50914;
+}
